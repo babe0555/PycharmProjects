@@ -9,8 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/untitled1/cn/com/babe/ehmatthes-pcc_2e-bc387ba/chapter_12/refactoring" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/untitled1/cn/com/babe/ehmatthes-pcc_2e-bc387ba/chapter_12/shooting_bullets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/untitled1/cn/com/babe/ehmatthes-pcc_2e-bc387ba/chapter_12/starting_the_game_project" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (PycharmProjects)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
