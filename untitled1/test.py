@@ -31,7 +31,6 @@
 # else:
 #     print("The for loop is over")
 #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #
-import random
 
 # print(random.randint(1, 10))  # 产生 1 到 10 的一个整数型随机数
 # print(random.random())  # 产生 0 到 1 之间的随机浮点数
@@ -636,22 +635,17 @@ import random
 #     for l in file_object:
 #         # print(l,end="")
 #         print(l,end="")
-    
+
 
 # with open('c://A.txt') as file_object:
 #     lines=file_object.readlines()
 #     for l in lines:
 #         print(l,end="")
-        
 
-
-
-import time
-import datetime
 
 # t=time.gmtime()
-t=time.localtime()
-tt=datetime.datetime.now()
+# t=time.localtime()
+# tt=datetime.datetime.now()
 
 # print ('年：',t.tm_year)
 # print ('月：',t.tm_mon)
@@ -680,7 +674,7 @@ tt=datetime.datetime.now()
 
 # with open('c://tt.txt',"a") as file_object:
 #   file_object.write(str(tt)+"\r\n")
-  
+
 # try:
 #     i=1/0
 # except :
@@ -743,7 +737,18 @@ tt=datetime.datetime.now()
 # greet_user()
 # print(round(random.uniform(0,100),2))
 
-import  random
+# import  random
+#
+# print(round(random.uniform(0,100),2))
 
-print(round(random.uniform(0,100),2))
+# n = input("enter a number to process: ")
+# n = int(n)
+# if n >= 10:
+#     for i in range(1, n + 1):
+#         print(i)
 
+# print('G' > 'g')
+# lang="Python"
+# print(lang[:-6])
+
+print([[x, x + 1, x + 2] for x in range(0, 3)])
