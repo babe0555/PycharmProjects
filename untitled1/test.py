@@ -751,4 +751,23 @@
 # lang="Python"
 # print(lang[:-6])
 
-print([[x, x + 1, x + 2] for x in range(0, 3)])
+# print([[x, x + 1, x + 2] for x in range(0, 3)])
+#
+# a = 5
+# b = 6
+# c = a if a > b else b
+#
+# print(c)
+
+#
+# if 'a':
+#     print("True")
+# else:
+#     print("False")
+
+# color = ['Red', 'Green', 'Blue']
+# R, G, B = color
+# print(G)
+
+score = 50 > 35
+print("Pass" if score else "Fail")
