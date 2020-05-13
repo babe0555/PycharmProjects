@@ -768,6 +768,21 @@
 # color = ['Red', 'Green', 'Blue']
 # R, G, B = color
 # print(G)
+#
+# score = 50 > 35
+# print("Pass" if score else "Fail")
 
-score = 50 > 35
-print("Pass" if score else "Fail")
+# import operator as op
+#
+# print(op.truediv(1231, 17))
+# print(op.add(123, 456))
+
+# a = 'asdfghjkl'
+# print(a[1:].startswith('s'))
+
+lang = 'Python'
+print('=' * 21)
+print(*lang, sep='|')
+print('-' * 21)
+print(*range(len(lang)), sep='|')
+print('=' * 21)
