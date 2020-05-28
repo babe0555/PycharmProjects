@@ -830,3 +830,16 @@ print(a[b])
 dic = {"a": 2, "a": 3}
 n = dic["a"]
 print(n)
+
+name = 'Mari Muthu'
+print(name.rfind('M'))
+
+
+def prt():
+    name = 'Brisa'
+    company = (lambda x: name + '' + x)
+    return company
+
+
+my_prt = prt()
+print(my_prt('Technologies'))
