@@ -780,9 +780,53 @@
 # a = 'asdfghjkl'
 # print(a[1:].startswith('s'))
 
-lang = 'Python'
-print('=' * 21)
-print(*lang, sep='|')
-print('-' * 21)
-print(*range(len(lang)), sep='|')
-print('=' * 21)
+# lang = 'Python'
+# print('=' * 21)
+# print(*lang, sep='|')
+# print('-' * 21)
+# print(*range(len(lang)), sep='|')
+# print('=' * 21)
+
+# t = 'abcbbbbbbbbbbbbd'
+# print(t.center(20, "!"))
+# print(t.count("b", 0, 5))
+
+# s = ''
+# print(True if s else False)
+#
+#
+# def myFunc(n):
+#     if n == 0:
+#         return 0
+#     else:
+#         return n + myFunc(n - 1)
+#
+#
+# print(myFunc(5))
+
+# for i in range(6):
+#     i += i
+# else:
+#     print(i)
+#
+# print(sum([1, 2], 7))
+#
+#
+#
+#
+# class A:
+#     def __init__(self):
+#         self.__name = 'Micheal'
+#
+#
+# abc = A()
+# print(abc.__name)
+
+
+a = {'b': 'c', 'c': 'd', 'd': 'b'}
+b = a[a['b']]
+print(a[b])
+
+dic = {"a": 2, "a": 3}
+n = dic["a"]
+print(n)
